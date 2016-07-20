@@ -22,6 +22,10 @@
 		AAEBD8E21D3EFFA500FDA2D6 /* InCodeMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEBD8D61D3EFFA500FDA2D6 /* InCodeMappingProvider.m */; };
 		AAEBD8E31D3EFFA500FDA2D6 /* ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEBD8D91D3EFFA500FDA2D6 /* ObjectMapper.m */; };
 		AAEBD8E41D3EFFA500FDA2D6 /* ObjectMappingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEBD8DB1D3EFFA500FDA2D6 /* ObjectMappingInfo.m */; };
+		AAEBD8E71D3F018100FDA2D6 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEBD8E61D3F018100FDA2D6 /* Declarations.m */; };
+		AAEBD8EA1D3F019300FDA2D6 /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEBD8E91D3F019300FDA2D6 /* WebServices.m */; };
+		AAEBD8ED1D3F019C00FDA2D6 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEBD8EC1D3F019C00FDA2D6 /* Parser.m */; };
+		AAEBD8F01D3F01C400FDA2D6 /* OCMapperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEBD8EF1D3F01C400FDA2D6 /* OCMapperConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +60,14 @@
 		AAEBD8DA1D3EFFA500FDA2D6 /* ObjectMappingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMappingInfo.h; sourceTree = "<group>"; };
 		AAEBD8DB1D3EFFA500FDA2D6 /* ObjectMappingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMappingInfo.m; sourceTree = "<group>"; };
 		AAEBD8DC1D3EFFA500FDA2D6 /* OCMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapper.h; sourceTree = "<group>"; };
+		AAEBD8E51D3F018100FDA2D6 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		AAEBD8E61D3F018100FDA2D6 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		AAEBD8E81D3F019300FDA2D6 /* WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		AAEBD8E91D3F019300FDA2D6 /* WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
+		AAEBD8EB1D3F019C00FDA2D6 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		AAEBD8EC1D3F019C00FDA2D6 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		AAEBD8EE1D3F01C400FDA2D6 /* OCMapperConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapperConfig.h; sourceTree = "<group>"; };
+		AAEBD8EF1D3F01C400FDA2D6 /* OCMapperConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMapperConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +126,14 @@
 			children = (
 				AAEBD8A91D3EFBD600FDA2D6 /* AppDelegate.h */,
 				AAEBD8AA1D3EFBD600FDA2D6 /* AppDelegate.m */,
+				AAEBD8E51D3F018100FDA2D6 /* Declarations.h */,
+				AAEBD8E61D3F018100FDA2D6 /* Declarations.m */,
+				AAEBD8E81D3F019300FDA2D6 /* WebServices.h */,
+				AAEBD8E91D3F019300FDA2D6 /* WebServices.m */,
+				AAEBD8EB1D3F019C00FDA2D6 /* Parser.h */,
+				AAEBD8EC1D3F019C00FDA2D6 /* Parser.m */,
+				AAEBD8EE1D3F01C400FDA2D6 /* OCMapperConfig.h */,
+				AAEBD8EF1D3F01C400FDA2D6 /* OCMapperConfig.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -274,13 +294,17 @@
 			files = (
 				AAEBD8AE1D3EFBD600FDA2D6 /* Start.m in Sources */,
 				AAEBD8E31D3EFFA500FDA2D6 /* ObjectMapper.m in Sources */,
+				AAEBD8EA1D3F019300FDA2D6 /* WebServices.m in Sources */,
 				AAEBD8E21D3EFFA500FDA2D6 /* InCodeMappingProvider.m in Sources */,
+				AAEBD8ED1D3F019C00FDA2D6 /* Parser.m in Sources */,
 				AAEBD8B41D3EFBD600FDA2D6 /* WebServicesExample.xcdatamodeld in Sources */,
 				AAEBD8E01D3EFFA500FDA2D6 /* ObjectInstanceProvider.m in Sources */,
 				AAEBD8AB1D3EFBD600FDA2D6 /* AppDelegate.m in Sources */,
+				AAEBD8F01D3F01C400FDA2D6 /* OCMapperConfig.m in Sources */,
 				AAEBD8DE1D3EFFA500FDA2D6 /* NSObject+ObjectMapper.m in Sources */,
 				AAEBD8A81D3EFBD600FDA2D6 /* main.m in Sources */,
 				AAEBD8E11D3EFFA500FDA2D6 /* CommonLoggingProvider.m in Sources */,
+				AAEBD8E71D3F018100FDA2D6 /* Declarations.m in Sources */,
 				AAEBD8E41D3EFFA500FDA2D6 /* ObjectMappingInfo.m in Sources */,
 				AAEBD8DD1D3EFFA500FDA2D6 /* NSDictionary+ObjectMapper.m in Sources */,
 				AAEBD8DF1D3EFFA500FDA2D6 /* ManagedObjectInstanceProvider.m in Sources */,
